@@ -16,9 +16,9 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://anantnetra-securityanalyzer.onrender.com"
+                                "https://anantnetra-securityanalyzer.vercel.app"
                         )
-                        .allowedMethods("*")
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
         };

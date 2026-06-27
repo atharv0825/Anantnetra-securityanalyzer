@@ -1,0 +1,57 @@
+.page-title {
+  color: white;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  color: #94a3b8;
+}
+
+.history-header {
+  grid-template-columns: 2fr 1.5fr 1.5fr 1fr 1fr;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  color: #64748b;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.history-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 1.25rem;
+}
+
+.finding {
+  color: white;
+  font-weight: 600;
+}
+
+.asset {
+  color: #cbd5e1;
+}
+
+.organization {
+  color: #94a3b8;
+}
+
+.date {
+  color: #64748b;
+}
+
+.severity-badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

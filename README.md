@@ -39,7 +39,7 @@ https://anantnetra-securityanalyzer.onrender.com
 - React Icons
 
 ### Backend
-- Spring Boot 3
+- Spring Boot 4.1.0
 - Spring Data JPA
 - PostgreSQL
 - Gemini AI API

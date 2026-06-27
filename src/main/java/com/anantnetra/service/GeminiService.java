@@ -47,7 +47,7 @@ public class GeminiService {
 
             GenerateContentResponse response =
                     client.models.generateContent(
-                            "gemini-2.5-flash-lite",
+                            "gemini-2.5-flash",
                             prompt,
                             null
                     );

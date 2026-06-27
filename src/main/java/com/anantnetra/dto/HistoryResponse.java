@@ -17,6 +17,12 @@ public class HistoryResponse {
 
     private String finding;
 
+    private String whyImportant;
+
+    private String recommendedAction;
+
+    private String suggestedTimeline;
+
     private String severity;
 
     private String businessPriority;

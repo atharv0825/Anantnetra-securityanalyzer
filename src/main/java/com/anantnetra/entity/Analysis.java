@@ -22,10 +22,12 @@ public class Analysis {
 
     private String asset;
 
+    @Column(columnDefinition = "TEXT")
     private String finding;
 
     private String severity;
 
+    @Column(columnDefinition = "TEXT")
     private String businessPriority;
 
     @Column(columnDefinition = "TEXT")
@@ -34,6 +36,7 @@ public class Analysis {
     @Column(columnDefinition = "TEXT")
     private String recommendedAction;
 
+    @Column(columnDefinition = "TEXT")
     private String suggestedTimeline;
 
     private LocalDateTime createdAt;

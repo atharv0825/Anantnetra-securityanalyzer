@@ -13,4 +13,5 @@ public interface AnalysisService {
     List<HistoryResponse> getHistory();
     List<HistoryResponse> search(String keyword);
     void delete(Long id);
+    HistoryResponse getById(Long id);
 }

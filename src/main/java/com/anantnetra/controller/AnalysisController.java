@@ -55,4 +55,13 @@ public class AnalysisController {
                 "Analysis deleted successfully");
     }
 
+
+    @GetMapping("/{id}")
+    public ResponseEntity<HistoryResponse> getById(
+            @PathVariable Long id) {
+
+        return ResponseEntity.ok(
+                analysisService.getById(id)
+        );
+    }
 }

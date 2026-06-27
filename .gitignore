@@ -5,10 +5,12 @@ target/
 !**/src/test/**/target/
 
 ### Application Config ###
-src/main/resources/application.yml
-src/main/resources/application.yaml
-src/main/resources/application.properties
-
+### Application Config ###
+src/main/resources/application-local.yml
+src/main/resources/application-local.yaml
+src/main/resources/application-dev.yml
+src/main/resources/application-dev.yaml
+.env
 ### STS ###
 .apt_generated
 .classpath

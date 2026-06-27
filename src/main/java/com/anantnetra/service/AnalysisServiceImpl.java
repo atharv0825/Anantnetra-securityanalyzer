@@ -89,4 +89,26 @@ public class AnalysisServiceImpl implements AnalysisService {
 
         analysisRepository.delete(analysis);
     }
+
+    @Override
+    public HistoryResponse getById(Long id) {
+
+        Analysis analysis = analysisRepository.findById(id)
+                .orElseThrow(() ->
+                        new ResourceNotFoundException(
+                                "Analysis not found with id: " + id));
+
+        return HistoryResponse.builder()
+                .id(analysis.getId())
+                .organization(analysis.getOrganization())
+                .asset(analysis.getAsset())
+                .finding(analysis.getFinding())
+                .severity(analysis.getSeverity())
+                .businessPriority(analysis.getBusinessPriority())
+                .whyImportant(analysis.getWhyImportant())
+                .recommendedAction(analysis.getRecommendedAction())
+                .suggestedTimeline(analysis.getSuggestedTimeline())
+                .createdAt(analysis.getCreatedAt())
+                .build();
+    }
 }

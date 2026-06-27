@@ -104,13 +104,13 @@ https://anantnetra-securityanalyzer.onrender.com
 
 ---
 
-## 5. Detailed Recommendation Output
+## 5. Analysis History Page
 
 ![Recommendation](Screenshot/SC5.png)
 
 ---
 
-## 6. Analysis History Page
+## 6. Detailed Recommendation Output
 
 ![History](Screenshot/SC6.png)
 

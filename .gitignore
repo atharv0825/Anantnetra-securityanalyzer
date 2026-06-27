@@ -1,0 +1,19 @@
+# Backend
+Backend/target/
+Backend/.idea/
+
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+Backend/src/main/resources/application-local.yaml
+Backend/src/main/resources/application-dev.yaml
+Backend/.env
+
+Frontend/.env
+Frontend/.env.local

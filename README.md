@@ -80,7 +80,7 @@ https://anantnetra-securityanalyzer.onrender.com
 
 # Screenshots
 
-## 1. GitHub Repository Structure
+## 1. Landing Page
 
 ![Repository Structure](Screenshot/SC1.png)
 
